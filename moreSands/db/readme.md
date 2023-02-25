@@ -1,0 +1,1 @@
+docker run --name=db -p 80:80 -d postgres
