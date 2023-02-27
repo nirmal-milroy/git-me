@@ -1,9 +1,9 @@
 version:"3"
 Services:
     nodejs:
-        image: nodejs
+        image: node-web-app
         ports:
-            - 8080:8080
+            - 49160:8080 
         
     proxy:
         image: apache
